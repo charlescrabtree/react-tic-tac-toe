@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { GameContext } from '../../context/GameContext';
 import './Board.css';
-import Box from '../Box/Box';
+import Box from '../Board/Box';
 
 export default function Board() {
   const { board, checkWinner } = useContext(GameContext);
